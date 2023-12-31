@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html , body{
+        height: 100vh;
+        width: 100vw;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .user_cotainer{
+      
+       width: 20rem;
+       border: 1px solid rgb(163, 162, 162);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding: 2.5rem 3rem;
+       gap: 0.5rem;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+   .img_div{
+       width: 5rem;
+       height: 5rem ;
+       border:  1px solid black;
+       border-radius: 50%;
+       overflow: hidden;
+   }
+   .img_div img{
+       width: 5rem;
+   }
+   .user_name{
+       font-size: 2rem;
+   }
+   .user_bio{
+      font-size: 1.5rem;
+   }
+   .User_email,.followers{
+      color: rgb(157, 153, 153);
+   }
+</style>
+</head>
+<body>
+  <div class="user_cotainer">
+       <div class="img_div"><img src="https://images.pexels.com/photos/9409695/pexels-photo-9409695.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image"></div>
+        <p class="user_name">user_name</p>
+        <p class="user_bio">Bio</p>
+        <p class="User_email">Email</p>
+        <p class="followers">Followers 4000</p>
+  </div>
+
+</body>
+</html>
